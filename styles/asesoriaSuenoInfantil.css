@@ -57,23 +57,33 @@
   position: relative;
   background: var(--overlay-warm-dark);
   padding: 45px 55px;
-  max-width: 650px;
   width: 50%;
-  margin-top: 50px;
+  margin-top: 8px;
   margin-right: 5%;
   border-radius: 12px;
   text-align: center;
   z-index: 2;
   box-shadow: 0 15px 40px var(--shadow-medium);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
 }
 
 .hero-quote h2 {
   color: var(--bg-primary);
-  font-family: 'Pompiere', cursive;
-  font-size: 42px;
-  font-weight: 400;
-  line-height: 1.2;
+  font-family: 'Pompiere';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0 0 25px 0;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px var(--shadow-light);
+}
+
+.hero-quote h3 {
+  color: var(--bg-primary);
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
   margin: 0 0 25px 0;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 3px var(--shadow-light);
@@ -82,9 +92,9 @@
 .hero-quote p {
   color: var(--bg-primary);
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
   margin: 0 0 15px 0;
   text-align: center;
   text-shadow: 1px 1px 2px var(--shadow-light);
@@ -106,8 +116,8 @@
   font-size: 14px;
   font-weight: 500;
   padding: 15px 35px;
-  background-color: var(--btn-hero-bg);
-  color: var(--btn-hero-text);
+  background-color: var(--primary-gold-light);
+  color: var(--text-white);
   border-radius: 50px;
   text-decoration: none;
   display: inline-block;

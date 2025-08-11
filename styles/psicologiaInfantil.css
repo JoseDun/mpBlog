@@ -64,13 +64,13 @@
   padding: 45px 55px;
   max-width: 650px;
   width: 50%;
-  margin-top: 50px;
+  margin-top: 8px;
   margin-right: 5%;
   border-radius: 12px;
   text-align: center;
   z-index: 2;
   box-shadow: 0 15px 40px var(--shadow-medium);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1px);
 }
 
 .hero-quote h2 {

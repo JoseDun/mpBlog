@@ -7,17 +7,6 @@
   background-color: var(--bg-warm);
 }
 
-.section-header>h2,
-.section-header>h3 {
-  color: var(--text-white);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -81,10 +70,21 @@
 
 .hero-quote h2 {
   color: var(--bg-primary);
-  font-family: 'Pompiere', cursive;
-  font-size: 42px;
-  font-weight: 400;
-  line-height: 1.2;
+  font-family: 'Pompiere';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0 0 25px 0;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 3px var(--shadow-light);
+}
+
+.hero-quote h3 {
+  color: var(--bg-primary);
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
   margin: 0 0 25px 0;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 3px var(--shadow-light);
@@ -93,9 +93,9 @@
 .hero-quote p {
   color: var(--bg-primary);
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
   margin: 0 0 15px 0;
   text-align: center;
   text-shadow: 1px 1px 2px var(--shadow-light);
@@ -117,8 +117,8 @@
   font-size: 14px;
   font-weight: 500;
   padding: 15px 35px;
-  background-color: var(--btn-hero-bg);
-  color: var(--btn-hero-text);
+  background-color: var(--primary-gold-light);
+  color: var(--text-white);
   border-radius: 50px;
   text-decoration: none;
   display: inline-block;
@@ -144,15 +144,21 @@
   margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Lora', serif;
+.prenatal-maternity-content h2 {
+  font-family: 'Monserrat', serif;
   font-weight: 500;
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: var(--text-brown);
+  color: var(--primary-gold-light);
 }
 
-p {
+.prenatal-intro p,
+.prenatal-journey p,
+.prenatal-objective p {
+  font-family: 'poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
   margin-bottom: 1.5rem;
 }
 
@@ -166,18 +172,13 @@ strong {
   font-weight: 700;
 }
 
-.prenatal-quote {
-  font-family: 'Lora', serif;
-  font-size: 1.75rem;
-  font-style: italic;
-  font-weight: 500;
-  margin: 3rem auto;
-  max-width: 650px;
-  border: none;
+.prenatal-quote p {
+  color: var(--accent-emphasis);
+  font-family: 'Pompiere';
+  font-size: 40px;
 }
 
 .prenatal-quote .prenatal-emphasis {
-  color: var(--accent-emphasis);
   font-style: normal;
   font-weight: 700;
 }
@@ -248,7 +249,7 @@ strong {
   max-width: 600px;
 }
 
-.perinatal-header h1 {
+.perinatal-header h2 {
   font-size: 40px;
   color: var(--perinatal-title);
   margin-bottom: 12px;
@@ -266,9 +267,10 @@ strong {
 }
 
 .perinatal-header .perinatal-subtitle {
-  font-size: 1rem;
+  font-size: 22px;
   color: var(--perinatal-subtitle);
   font-style: italic;
+  font-weight: 700;
 }
 
 .perinatal-services-grid {
@@ -342,8 +344,8 @@ strong {
 }
 
 .perinatal-cta-button {
-  background: var(--gradient-secondary);
-  color: var(--secondary-brown-dark);
+  background: var(--primary-gold-light);
+  color: var(--text-white);
   border: none;
   padding: 15px 35px;
   border-radius: 25px;
@@ -591,12 +593,13 @@ strong {
 }
 
 .steps-title {
+  font-family: 'Monserrat', sans-serif;
+  font-size: 35px;
   text-align: center;
   color: var(--accent-gold-dark);
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 60px;
-  letter-spacing: 1px;
+  line-height: 35px;
 }
 
 .steps-cards-grid {
@@ -668,8 +671,10 @@ strong {
 }
 
 .steps-step-number {
-  font-size: 3rem;
-  font-weight: 300;
+  font-family: 'Pompiere';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
@@ -912,7 +917,7 @@ strong {
     max-width: 450px;
   }
 
-  .perinatal-header h1 {
+  .perinatal-header h2 {
     font-size: 1.8rem;
   }
 
@@ -1071,7 +1076,7 @@ strong {
 
   }
 
-  .perinatal-header h1 {
+  .perinatal-header h2 {
     font-size: 1.6rem;
   }
 

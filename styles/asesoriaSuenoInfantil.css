@@ -203,6 +203,8 @@ strong {
   justify-content: center;
   min-height: 100vh;
   background-color: var(--bg-peach);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .perinatal-container {

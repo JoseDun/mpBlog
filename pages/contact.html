@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - María Palos</title>
+  <meta name="description"
+    content="¿En qué puedo ayudarte? Si tienes alguna duda, puedes ponerte en contacto conmigo y contarme qué es lo que necesitas." />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&family=Pompiere&family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../styles/contact.css" />
+  <script defer src="../index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <picture class="header-image">
+        <img src="../assets/Logo-Maria-Palos-PNG.png" alt="María Palos - Psicóloga Perinatal y Lactancia">
+      </picture>
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link">Inicio</a></li>
+          <li><a href="/pages/aboutMe.html" class="nav-link">Sobre Mí</a></li>
+          <li class="service-menu-item">
+            <div class="service-link-container">
+              <a class="nav-link">Servicios</a>
+              <img src="../assets/downArrow.svg" alt="arrow down" class="arrow-down">
+            </div>
+            <ul class="submenu">
+              <li><a href="/pages/psicologiaPerinatal.html">Psicología Perinatal</a></li>
+              <li><a href="/pages/psicologiaInfantil.html">Psicología Infantil</a></li>
+              <li><a href="/pages/asesoriaDeLactancia.html">Asesoría De Lactancia</a></li>
+              <li><a href="/pages/asesoriaSuenoInfantil.html">Asesoría Sueño Infantil</a></li>
+            </ul>
+          </li>
+          <li><a href="/pages/raq.html" class="nav-link">FAQ's</a></li>
+          <li><a href="/pages/blog.html" class="nav-link">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="/pages/contact.html" class="contact-btn">¡Contacta! <img src="../assets/rigthArrow.svg"
+            alt="right arrow" class="arrow-right">
+        </a>
+      </div>
+      <div class="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <!-- Main Contact Content -->
+  <main class="contact-main-content">
+    <!-- Hero Contact Section -->
+    <section class="contact-hero-section">
+      <div class="contact-image">
+        <img src="../assets/Maria-Palos-contacto.png" alt="María Palos - Psicóloga Perinatal" />
+      </div>
+    </section>
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+      <article class="contact-container">
+        <div>
+          <h2 class="contact-title">¿En qué puedo ayudarte?</h2>
+          <p class="contact-subtitle">Si tienes alguna duda, puedes ponerte en contacto conmigo y contarme qué es lo que
+            necesitas.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Correo electrónico" required />
+          </div>
+          <div class="form-group">
+            <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="6" required></textarea>
+          </div>
+          <div class="checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="privacidad" name="privacidad" required />
+              <span class="checkmark"></span>
+              Acepto la <a href="#" class="privacy-link">Política de Privacidad.</a>
+            </label>
+          </div>
+          <button type="submit" class="submit-btn">Quiero contactar</button>
+        </form>
+        <div class="privacy-text">
+          <p>María Palos solicita su consentimiento para prestarle el servicio solicitado y contestar a las cuestiones
+            planteadas. La legitimación tiene como base jurídica el consentimiento del interesado para los fines
+            expresados. Los datos no se cederán a terceros salvo en los casos en que exista una obligación legal. En
+            todo caso, los datos que nos facilitas están ubicados en servidores cuya sede se encuentra dentro del
+            territorio de la UE o gestionados por Encargados de Tratamiento acogidos al acuerdo Privacy Shield. Tiene
+            derecho a acceder, rectificar y suprimir los datos, así como otros derechos, como se explica en la
+            información adicional. Si no facilitas los datos solicitados como obligatorios, puede dar como resultado no
+            poder cumplir con la finalidad para los que se solicitan.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <section class="container">
+      <div class="footer-content">
+        <picture class="footer-brand">
+          <img src="../assets/Logo-Maria-Palos-PNG.png" alt="María Palos" class="footer-logo">
+        </picture>
+        <div class="footer-contact">
+          <h4>CONTACTO</h4>
+          <p><a href="mailto:hola@mariapalos.com">hola@mariapalos.com</a></p>
+          <p><a href="tel:634187692">634187692</a></p>
+        </div>
+        <div class="footer-services">
+          <h4>SERVICIOS</h4>
+          <ul>
+            <li><img src="../assets/footer.svg" alt=""> <a href="/pages/psicologiaPerinatal.html">Psicología
+                Perinatal</a></li>
+            <li><img src="../assets/bb.svg" alt=""> <a href="/pages/psicologiaInfantil.html">Psicología
+                Infantil</a></li>
+            <li><img src="../assets/boob.svg" alt=""> <a href="/pages/asesoriaDeLactancia.html"">Asesoría de
+                                lactancia</a></li>
+                    </ul>
+                    <div class=" footer-social">
+                <a aria-label="Facebook">
+                  <img src="../assets/fab.svg" alt="Facebook">
+                </a>
+                <a aria-label="Instagram">
+                  <img src="../assets/ig.svg" alt="Instagram">
+                </a>
+        </div>
+      </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright 2024 © Todos los derechos reservados María Palos · <a>Política de Cookies</a> · <a>Política
+            de Privacidad</a></p>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,390 @@
+@import url('./variables.css');
+@import url('../index.css');
+
+.about {
+  background-color: var(--bg-warm);
+}
+
+.section-header>h2,
+.section-header>h3 {
+  color: var(--bg-primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-card {
+  background: var(--card-bg-primary);
+  color: var(--secondary-brown-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 30px;
+  margin: 64px 16px;
+  max-height: fit-content;
+
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.about-card>p {
+  max-width: 1380px;
+  text-size-adjust: 100%;
+}
+
+.about-intro-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-passion-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+.about-quote-large {
+  font-family: 'Pompiere';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: var(--bg-primary);
+  font-style: italic;
+  max-width: 600px;
+}
+
+.about-cta-button {
+  background-color: var(--primary-gold-dark);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about-cta-button:hover {
+  background-color: var(--border-dashed);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services {
+  background-color: var(--bg-primary);
+  padding-bottom: 0px;
+  padding-inline: 0px;
+}
+
+.services-grid {
+  padding: 80px 180px;
+  gap: 8px;
+}
+
+.services-about-title {
+  text-align: center;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--primary-gold-light);
+
+}
+
+.service-card {
+  background-color: var(--bg-primary);
+  border: 2px dashed var(--border-dashed);
+  border-radius: 32px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#servicios>.container>.services-grid>.service-card:nth-child(2) {
+  background-color: var(--bg-primary);
+}
+
+.testimonials {
+  background-color: var(--bg-primary);
+}
+
+.newsletter {
+  background-color: var(--testimonials-bg);
+}
+
+/* seccion de embarazo */
+.about-curiosities-container {
+  background: var(--bg-warm);
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.about-curiosities-content {
+  display: flex;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.about-curiosities-text-section {
+  padding: 60px 50px;
+  color: var(--secondary-brown-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 600px;
+}
+
+.about-curiosities-image-section {
+  background-color: var(--curiosities-bg);
+}
+
+.about-curiosities-title {
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--primary-gold-dark);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-curiosities-intro {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  color: var(--secondary-brown-dark);
+  opacity: 0.9;
+}
+
+.about-curiosities-quote {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 35px 0;
+  color: var(--primary-gold-dark);
+  font-style: italic;
+  padding-left: 20px;
+  border-left: 3px solid var(--primary-gold-dark);
+}
+
+.about-curiosities-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--secondary-brown-dark);
+  opacity: 0.9;
+}
+
+.about-curiosities-highlight {
+  color: var(--highlight-brown);
+  font-weight: 600;
+}
+
+.about-curiosities-middle-content {
+  padding: 32px 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-curiosities-middle-content>p {
+  text-align: center;
+}
+
+.about-curiosities-middle-content>h2 {
+  text-align: center;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1000px) {
+
+  .services-grid {
+    padding: 0px 18px;
+    gap: 8px;
+  }
+
+}
+
+@media (max-width: 968px) {
+  .about-curiosities-content {
+    flex-direction: column;
+  }
+
+  .about-curiosities-image-section {
+    min-height: 300px;
+    order: 2;
+  }
+
+  .about-curiosities-text-section {
+    padding: 40px 30px;
+    order: 1;
+  }
+
+  .about-curiosities-title {
+    font-size: 32px;
+  }
+
+  .about-curiosities-middle-content {
+    padding: 32px 80px;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  .services-grid {
+    padding: 0px 8px;
+  }
+
+  .about-card {
+    padding: 30px 20px;
+    margin: 10px;
+  }
+
+  .about-quote-large {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .about-intro-text {
+    font-size: 14px;
+  }
+
+  .about-cta-button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  .about-curiosities-container {
+    border-radius: 12px;
+  }
+
+  .about-curiosities-text-section {
+    padding: 30px 25px;
+  }
+
+  .about-curiosities-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .about-curiosities-intro,
+  .about-curiosities-description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .about-curiosities-quote {
+    font-size: 20px;
+    margin: 25px 0;
+    padding-left: 15px;
+  }
+
+  .about-curiosities-image-section {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    padding: 0px 0px;
+  }
+
+  .about-card {
+    padding: 25px 15px;
+  }
+
+  .about-quote-large {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .about-intro-text,
+  .about-passion-text {
+    font-size: 12px;
+  }
+
+  .about-cta-button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .about-curiosities-container {
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .about-curiosities-text-section {
+    padding: 25px 20px;
+  }
+
+  .about-curiosities-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .about-curiosities-intro,
+  .about-curiosities-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .about-curiosities-quote {
+    font-size: 18px;
+    margin: 20px 0;
+    padding-left: 12px;
+  }
+
+  .about-curiosities-image-section {
+    min-height: 200px;
+  }
+
+  .about-curiosities-middle-content {
+    padding: 32px 32px;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .about-curiosities-middle-content {
+    padding: 8px 8px;
+
+  }
+
+  .about-card {
+    padding: 20px 12px;
+  }
+
+  .about-quote-large {
+    font-size: 18px;
+  }
+
+  .about-curiosities-text-section {
+    padding: 20px 15px;
+  }
+
+  .about-curiosities-title {
+    font-size: 22px;
+  }
+
+  .about-curiosities-intro,
+  .about-curiosities-description {
+    font-size: 13px;
+  }
+
+  .about-curiosities-quote {
+    font-size: 16px;
+  }
+
+}

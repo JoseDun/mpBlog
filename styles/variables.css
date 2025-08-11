@@ -1,0 +1,159 @@
+/* ===== VARIABLES CSS - SISTEMA DE COLORES =====
+ * Archivo centralizado para todas las variables de color
+ * Importar este archivo al inicio de cada CSS específico
+ */
+
+:root {
+  /* ===== COLORES PRINCIPALES ===== */
+  
+  /* Dorados y marrones cálidos - Colores primarios de marca */
+  --primary-gold: #b79269;
+  --primary-gold-light: #C89A69;
+  --primary-gold-medium: #c09a76;
+  --primary-gold-dark: #b8936f;
+  --accent-gold: #d4a574;
+  --accent-gold-dark: #c4915c;
+  --button-hover-gold: #a6845e;
+  --border-gold: #a6845d;
+  
+  /* Colores secundarios - Tonos complementarios */
+  --secondary-brown: #826f5f;
+  --secondary-brown-dark: #6b5b47;
+  --secondary-brown-light: #8a7a6b;
+  --text-brown: #605146;
+  --text-brown-medium: #7c605a;
+  --text-brown-muted: #807976;
+  --highlight-brown: #8b7355;
+  
+  /* ===== FONDOS ===== */
+  
+  /* Fondos principales */
+  --bg-primary: #ffffff;
+  --bg-secondary: #fefefe;
+  --bg-warm: #f4e5d1;
+  --bg-warm-light: #f6e7d7;
+  --bg-cream: #f3eae1;
+  --bg-peach: #efe1d8;
+  --bg-sand: #f6ece5;
+  
+  /* Fondos de cards y componentes */
+  --card-bg-primary: #e3ccb4;
+  --card-bg-secondary: #efdbc2;
+  --card-bg-tertiary: #ead0ba;
+  --card-bg-contact: #f3eae1;
+  --overlay-warm: rgba(226, 198, 171, 0.7);
+  --overlay-warm-dark: rgba(226, 198, 171, 0.9);
+  --overlay-light: rgba(255, 255, 255, 0.3);
+  --overlay-light-strong: rgba(255, 255, 255, 0.65);
+  
+  /* ===== COLORES DE TEXTO ===== */
+  
+  /* Textos principales */
+  --text-primary: #333;
+  --text-secondary: #666;
+  --text-muted: #555;
+  --text-light: #6f6f6f;
+  --text-white: #ffffff;
+  --text-black: #000000;
+  
+  /* ===== COLORES FUNCIONALES ===== */
+  
+  /* Botones */
+  --btn-primary-bg: #b79269;
+  --btn-primary-hover: #a6845e;
+  --btn-secondary-bg: #c4a77d;
+  --btn-secondary-hover: #b3966f;
+  --btn-special-bg: #E2C6AB;
+  --btn-contact-bg: #c09a76;
+  --btn-contact-hover: #a88662;
+  
+  /* Bordes */
+  --border-light: #e5d5c8;
+  --border-primary: #b79269;
+  --border-dashed: #a6845d;
+  
+  /* Estados y efectos */
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.2);
+  --shadow-dark: rgba(0, 0, 0, 0.5);
+  --shadow-warm: rgba(183, 146, 105, 0.3);
+  --shadow-warm-strong: rgba(184, 149, 106, 0.4);
+  
+  /* ===== GRADIENTES ===== */
+  
+  /* Gradientes de botones */
+  --gradient-primary: linear-gradient(135deg, #b79269, #d4a574);
+  --gradient-primary-hover: linear-gradient(135deg, #a6845e, #c19763);
+  --gradient-secondary: linear-gradient(135deg, #d4c4a8, #c4b196);
+  --gradient-secondary-hover: linear-gradient(135deg, #c4b196, #b8a890);
+  --gradient-card: linear-gradient(145deg, #d4a574, #c4915c);
+  --gradient-card-back: linear-gradient(145deg, #e8d5c4, #d4a574);
+  
+  /* ===== COLORES ESPECIALES ===== */
+  
+  /* Colores específicos para servicios */
+  --service-card-1: rgba(233, 203, 163, 0.5);
+  --service-card-2: rgba(200, 154, 105, 0.5);
+  --service-card-3: rgba(237, 218, 203, 0.5);
+  
+  /* Colores específicos para página psicología perinatal */
+  --btn-hero-bg: #d4b896;
+  --btn-hero-text: #8b6f47;
+  --btn-hero-hover: #c4a589;
+  --accent-emphasis: #c98a5d;
+  --text-cream: #fdfbf8;
+  --perinatal-title: #b8956a;
+  --perinatal-subtitle: #9a8a7b;
+  --curiosities-bg: #c4a989;
+  --steps-text-dark: #8b4513;
+  --steps-text-brown: #6b3410;
+  --shadow-warm-light: rgba(184, 149, 106, 0.1);
+  
+  /* Colores para diferentes secciones */
+  --newsletter-bg: #e3ccb4;
+  --testimonials-bg: #f6e7d7;
+  --footer-bg: #0b0b0b;
+  --hero-overlay: rgba(245, 241, 235, 0.7);
+  
+  /* ===== COLORES DE FORMULARIOS ===== */
+
+  /* Inputs y formularios */
+  --input-border: #e5d5c8;
+  --input-focus: #c09a76;
+  --placeholder-color: #a88662;
+  --checkbox-color: #c09a76;
+  --success-bg: #d4edda;
+  --success-text: #155724;
+  --success-border: #c3e6cb;
+  --error-bg: #f8d7da;
+  --error-text: #721c24;
+  --error-border: #f5c6cb;
+
+  /* ===== COLORES ESPECÍFICOS FAQ ===== */
+  
+  /* FAQ y páginas especiales */
+  --faq-text-gray: #969394;
+  --faq-text-dark: #2d2d30;
+  --faq-bg-light: #f9f8f7;
+  --faq-border-gray: #e0e0e0;
+  --contact-bg-warm: #eacba4;
+  --contact-text-brown: #8b6858;
+}
+
+/* ===== VARIABLES CONTEXTUALES ===== */
+
+/* Variables para diferentes temas/secciones si es necesario */
+:root[data-theme="lactancia"] {
+  --section-accent: var(--primary-gold);
+  --section-bg: var(--bg-warm);
+}
+
+:root[data-theme="psicologia"] {
+  --section-accent: var(--accent-gold-dark);
+  --section-bg: var(--bg-cream);
+}
+
+:root[data-theme="perinatal"] {
+  --section-accent: var(--primary-gold-dark);
+  --section-bg: var(--bg-peach);
+}

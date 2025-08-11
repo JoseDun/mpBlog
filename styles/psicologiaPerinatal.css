@@ -145,7 +145,7 @@
 }
 
 .prenatal-maternity-content h2 {
-  font-family: 'Monserrat', serif;
+  font-family: 'Montserrat', serif;
   font-weight: 500;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -155,7 +155,7 @@
 .prenatal-intro p,
 .prenatal-journey p,
 .prenatal-objective p {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -254,7 +254,7 @@ strong {
   color: var(--perinatal-title);
   margin-bottom: 12px;
   font-weight: 600;
-  font-family: 'Monserrat';
+  font-family: 'Montserrat';
 }
 
 .perinatal-header p {
@@ -448,7 +448,7 @@ strong {
 
 .services-about-title {
   text-align: center;
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 34px;
   font-weight: 600;
   color: var(--primary-gold-light);
@@ -583,13 +583,13 @@ strong {
   color: var(--perinatal-title);
   font-size: 35px;
   font-weight: 600;
-  font-family: 'Monserrat';
+  font-family: 'Montserrat';
   line-height: 35px;
   text-align: center;
 }
 
 .perninatal-hero-section-title p {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 33px;
@@ -605,7 +605,7 @@ strong {
 }
 
 .steps-title {
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 35px;
   text-align: center;
   color: var(--accent-gold-dark);
@@ -1004,7 +1004,7 @@ strong {
 
 @media (max-width: 480px) {
   .hero {
-    height: 60vh;
+    height: 80vh;
     min-height: 500px;
     padding: 15px 5px;
   }

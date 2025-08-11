@@ -254,7 +254,7 @@ strong {
   color: var(--perinatal-title);
   margin-bottom: 12px;
   font-weight: 600;
-  font-family: 'Monserrat';
+  font-family: 'Montserrat';
 }
 
 .perinatal-header p {
@@ -447,7 +447,7 @@ strong {
 
 .services-about-title {
   text-align: center;
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 34px;
   font-weight: 600;
   color: var(--primary-gold-light);

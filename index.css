@@ -346,7 +346,7 @@ strong {
     padding: 20px 180px;
 }
 
-.hero-quote h2,
+.hero-quote h1,
 .hero-quote p,
 .hero-quote h3 {
     color: var(--text-white);
@@ -470,7 +470,7 @@ strong {
     font-size: 22px;
     max-width: 1480px;
     margin: 0 auto 20px;
-    font-family: 'poppins';
+    font-family: 'Poppins';
     line-height: 33px;
     font-weight: 400;
     text-size-adjust: 100%;

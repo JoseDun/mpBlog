@@ -566,8 +566,6 @@ strong {
   min-height: 600px;
   padding-top: 60px;
   padding-bottom: 32px;
-  gap: 30px;
-
 }
 
 .perninatal-hero-section {
@@ -575,14 +573,28 @@ strong {
   margin: 0;
   min-height: 600px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   gap: 20px;
   max-width: 600px;
 }
 
 .perninatal-hero-section-title {
+  color: var(--perinatal-title);
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Monserrat';
+  line-height: 35px;
   text-align: center;
+}
+
+.perninatal-hero-section-title p {
+  font-family: 'poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+
+
 }
 
 
@@ -731,6 +743,12 @@ strong {
   transform: rotate(45deg) translateX(100%);
 }
 
+@media (max-width: 1460px) {
+  .perninatal-hero-section {
+    margin-inline: 20px;
+  }
+}
+
 
 @media (max-width: 1200px) {
   .hero-background {
@@ -749,7 +767,6 @@ strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
   }
 
   .perninatal-hero-section {

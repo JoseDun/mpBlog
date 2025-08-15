@@ -464,7 +464,6 @@ strong {
 
 .about-curiosities-container {
   background-color: var(--bg-sand);
-  padding-bottom: 16px;
   padding-top: 64px;
 }
 
@@ -566,6 +565,91 @@ padding-left: 40px;
   background-color: var(--bg-primary);
 }
 
+.health-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  background-color: var(--bg-sand);
+}
+
+.health-newsletter-text {
+  flex: 1;
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+}
+
+.health-newsletter-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: var(--primary-gold-dark);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.health-newsletter-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--primary-gold-dark);
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.health-newsletter-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--secondary-brown-dark);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.health-newsletter-text .learn-more-btn {
+  display: inline-block;
+  background-color: var(--primary-gold-light);
+  color: var(--text-white);
+  padding: 15px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--shadow-light);
+}
+
+.health-newsletter-text .learn-more-btn:hover {
+  background-color: var(--btn-hero-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--shadow-medium);
+}
+
+.health-newsletter-image {
+  flex: 1;
+  max-width: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.health-newsletter-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 15px 35px var(--shadow-medium);
+}
+.health-newsletter-image p {
+margin-bottom: 0px;
+}
 
 .perninatal-main-content {
   display: flex;
@@ -991,6 +1075,24 @@ padding-left: 40px;
   .steps-back-description {
     font-size: 1rem;
   }
+
+  .health-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .health-newsletter-text h2 {
+    font-size: 32px;
+  }
+
+  .health-newsletter-text h3 {
+    font-size: 22px;
+  }
+
+  .health-newsletter-text p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1101,6 +1203,33 @@ padding-left: 40px;
   .perinatal-service-card p {
     font-size: 0.75rem;
   }
+
+  .health-container {
+    padding: 30px 15px;
+    gap: 25px;
+  }
+
+  .health-newsletter-text {
+    padding: 15px;
+  }
+
+  .health-newsletter-text h2 {
+    font-size: 28px;
+  }
+
+  .health-newsletter-text h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .health-newsletter-text p {
+    font-size: 14px;
+  }
+
+  .health-newsletter-text .learn-more-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1134,33 +1263,4 @@ padding-left: 40px;
     font-size: 16px;
   }
 
-}
-
-.health-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 40px 20px;
-  flex-wrap: wrap;
-}
-
-.health-newsletter-text {
-  flex: 1;
-  max-width: 500px;
-  text-align: center;
-}
-
-.health-newsletter-image {
-  flex: 1;
-  max-width: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.health-newsletter-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
 }

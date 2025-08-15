@@ -80,24 +80,21 @@
 
 .hero-quote h2 {
   color: var(--bg-primary);
-  font-family: 'Pompiere', cursive;
-  font-size: 42px;
-  font-weight: 400;
-  line-height: 1.2;
+  font-family: 'Pompiere';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
   margin: 0 0 25px 0;
   letter-spacing: 0.5px;
-  text-shadow: 1px 1px 3px var(--shadow-light);
 }
 
 .hero-quote p {
   color: var(--bg-primary);
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
   margin: 0 0 15px 0;
-  text-align: center;
-  text-shadow: 1px 1px 2px var(--shadow-light);
 }
 
 .hero-quote .hero-highlight {
@@ -116,8 +113,8 @@
   font-size: 14px;
   font-weight: 500;
   padding: 15px 35px;
-  background-color: var(--btn-hero-bg);
-  color: var(--btn-hero-text);
+  background-color: var(--primary-gold-light);
+  color: var(--text-white);
   border-radius: 50px;
   text-decoration: none;
   display: inline-block;
@@ -144,13 +141,6 @@
   margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Lora', serif;
-  font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: var(--text-brown);
-}
 
 p {
   margin-bottom: 1.5rem;
@@ -184,7 +174,7 @@ strong {
 
 .prenatal-cta-button {
   display: inline-block;
-  background-color: var(--btn-secondary-bg);
+  background-color: var(--primary-gold-light);
   color: var(--text-cream);
   padding: 0.9rem 2rem;
   border-radius: 50px;
@@ -248,7 +238,7 @@ strong {
   max-width: 600px;
 }
 
-.perinatal-header h1 {
+.perinatal-header h2 {
   font-size: 40px;
   color: var(--perinatal-title);
   margin-bottom: 12px;
@@ -916,7 +906,7 @@ strong {
     max-width: 450px;
   }
 
-  .perinatal-header h1 {
+  .perinatal-header h2 {
     font-size: 1.8rem;
   }
 
@@ -1075,7 +1065,7 @@ strong {
 
   }
 
-  .perinatal-header h1 {
+  .perinatal-header h2 {
     font-size: 1.6rem;
   }
 

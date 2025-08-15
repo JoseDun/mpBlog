@@ -447,10 +447,6 @@ strong {
   background-color: var(--bg-primary);
 }
 
-.newsletter {
-  background-color: var(--bg-warm-light);
-}
-
 .about-curiosities-container {
   background-color: var(--bg-sand);
   padding-top: 64px;

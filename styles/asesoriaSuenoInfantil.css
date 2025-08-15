@@ -144,12 +144,19 @@
   margin: 0 auto;
 }
 
-h2 {
-  font-family: 'Lora', serif;
-  font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: var(--text-brown);
+.prenatal-maternity-content h2 {
+  font-family: 'Monserrat', serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 35px;
+  color: var(--primary-gold-light);
+}
+
+.prenatal-maternity-content p {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .prenatal-highlight-line {
@@ -163,19 +170,16 @@ strong {
 }
 
 .prenatal-quote {
-  font-family: 'Lora', serif;
-  font-size: 1.75rem;
-  font-style: italic;
-  font-weight: 500;
   margin: 3rem auto;
   max-width: 650px;
-  border: none;
 }
 
-.prenatal-quote .prenatal-emphasis {
-  color: var(--accent-emphasis);
-  font-style: normal;
-  font-weight: 700;
+.prenatal-quote p {
+  color: var(--primary-gold-light);
+  font-weight: 600;
+  font-family: 'Pompiere';
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .prenatal-cta-button {
@@ -998,7 +1002,7 @@ strong {
 
 @media (max-width: 480px) {
   .hero {
-    height: 60vh;
+    height: 100vh;
     min-height: 500px;
     padding: 15px 5px;
   }
@@ -1109,7 +1113,6 @@ strong {
 @media (max-width: 320px) {
   .about-curiosities-middle-content {
     padding: 8px 8px;
-
   }
 
   .about-card {

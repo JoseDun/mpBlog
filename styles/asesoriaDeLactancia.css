@@ -482,6 +482,7 @@ strong {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   background-color: var(--bg-warm-light);
+  padding-top: 64px;
 }
 
 .about-curiosities-middle-content-left{
@@ -507,7 +508,7 @@ strong {
 
 .about-curiosities-title {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--primary-gold-dark);
   margin-bottom: 40px;
   text-align: center;

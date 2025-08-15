@@ -465,20 +465,26 @@ strong {
 .about-curiosities-container {
   background: var(--bg-warm);
   padding-bottom: 16px;
-  padding-top: 16px;
+  padding-top: 64px;
 }
 
 .about-curiosities-content {
   display: flex;
   min-height: 500px;
   justify-content: center;
-  align-items: center;
-  align-content: center;
   flex-wrap: wrap;
 }
 
+.about-curiosities-content-II{
+  display: flex;
+  min-height: 500px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
 .about-curiosities-text-section {
-  padding: 60px 50px;
+  padding: 0px 50px;
   color: var(--secondary-brown-dark);
   display: flex;
   flex-direction: column;
@@ -772,7 +778,7 @@ strong {
     margin-top: 0;
   }
 
-  .health-container{
+  .health-container {
     flex-direction: column;
   }
 

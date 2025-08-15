@@ -6,17 +6,6 @@
   background-color: var(--bg-warm);
 }
 
-.section-header>h2,
-.section-header>h3 {
-  color: var(--text-white);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .hero {
   position: relative;
   display: flex;
@@ -647,6 +636,18 @@ padding-left: 40px;
   border-radius: 15px;
   box-shadow: 0 15px 35px var(--shadow-medium);
 }
+
+.health-newsletter-image p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: var(--secondary-brown-dark);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  opacity: 0.8;
+  line-height: 1.4;
+}
 .health-newsletter-image p {
 margin-bottom: 0px;
 }
@@ -1092,6 +1093,11 @@ margin-bottom: 0px;
 
   .health-newsletter-text p {
     font-size: 16px;
+  }
+
+  .health-newsletter-image p {
+    font-size: 14px;
+    margin-top: 25px;
   }
 }
 

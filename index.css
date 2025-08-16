@@ -1104,15 +1104,15 @@ strong {
 
     /* Hero Mobile */
     .hero-quote h2 {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
 
     .hero-quote p {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
     .hero-quote h3 {
-        font-size: 1.6rem;
+        font-size: 2.4rem;
     }
 
     .hero-content {
@@ -1224,23 +1224,26 @@ strong {
     }
 
     .hero {
-        height: 80vh;
+        min-height: 90vh;
+        padding: 60px 20px;
     }
 
     .hero-content {
-        padding: 30px 20px;
+        padding: 50px 20px;
+        width: 100%;
+        max-width: none;
     }
 
     .hero-quote h2 {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
 
     .hero-quote p {
-        font-size: 1.1rem;
+        font-size: 2.5rem;
     }
 
     .hero-quote h3 {
-        font-size: 1.4rem;
+        font-size: 3rem;
     }
 
     .service-card {

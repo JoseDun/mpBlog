@@ -563,7 +563,7 @@ strong {
 /* testimonials */
 
 .testimonial-dots {
-  margin-top: 0px ;
+  margin-top: 0px;
 }
 
 .perninatal-main-content {
@@ -583,6 +583,7 @@ strong {
   flex-direction: column;
   gap: 20px;
   max-width: 600px;
+  margin-left: 20px;
 }
 
 .perninatal-hero-section-title {
@@ -998,6 +999,10 @@ strong {
   .steps-back-description {
     font-size: 1rem;
   }
+
+  .perninatal-hero-section {
+    margin-inline: 40px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1138,6 +1143,11 @@ strong {
 
   .about-curiosities-quote {
     font-size: 16px;
+  }
+
+  .perninatal-hero-section {
+    margin-inline: 20px;
+    text-align: center;
   }
 
 }

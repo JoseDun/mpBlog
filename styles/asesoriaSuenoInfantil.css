@@ -711,6 +711,7 @@ strong {
   margin-bottom: 20px;
   color: var(--steps-text-dark);
   transition: transform 0.3s ease;
+  font-family: 'Pompiere';
 }
 
 .steps-back-description {
